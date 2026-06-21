@@ -2,10 +2,16 @@
 
 <br/>
 
-<img src="assets/download (1).jpg" width="40%"/>
+<table border="0">
+<tr><td align="center">
+<img src="assets/glow_ring.svg" width="320" style="position:absolute; z-index:0;"/>
+<img src="assets/download (1).jpg" width="220" style="position:relative; z-index:1; border-radius:50%;"/>
+</td></tr>
+</table>
 
 <br/><br/>
 
+<img src="assets/name_blink.svg" width="850"/>
 
 <br/>
 
@@ -14,6 +20,19 @@
 </a>
 
 <br/><br/><br/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kishores57&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF&text_color=c9d1d9&count_private=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kishores57&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=c9d1d9"/>
+
+<br/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=Kishores57&theme=tokyonight&hide_border=true&background=0D1117&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kishores57&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F0FF&line=00F0FF&point=ffffff" width="92%"/>
+
+<br/><br/>
 
 <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
