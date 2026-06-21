@@ -2,12 +2,9 @@
 
 <br/>
 
-<table border="0">
-<tr><td align="center">
-<img src="assets/glow_ring.svg" width="320" style="position:absolute; z-index:0;"/>
-<img src="assets/download (1).jpg" width="220" style="position:relative; z-index:1; border-radius:50%;"/>
-</td></tr>
-</table>
+<img src="assets/glow_ring.svg" width="320"/>
+
+<img src="assets/download (1).jpg" width="30%"/>
 
 <br/><br/>
 
