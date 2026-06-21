@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/download (1).jpg" width="100%"/>
+<img src="assets/download (1).jpg" width="40%"/>
 
 <br/>
 
