@@ -1,0 +1,32 @@
+<svg width="560" height="300" viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#1a3a4a"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#7CFFB2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7CFFB2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="560" height="300" rx="32" fill="url(#bg)"/>
+  <circle cx="448.0" cy="20" r="160" fill="url(#orb)" filter="url(#blur1)"/>
+  <rect x="3" y="3" width="554" height="294" rx="29" fill="url(#glass)" stroke="#7CFFB2" stroke-opacity="0.4" stroke-width="1.5"/>
+  <rect x="18" y="18" width="524" height="264" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1"/>
+  <circle cx="280.0" cy="92" r="46" fill="#ffffff" fill-opacity="0.08" stroke="#7CFFB2" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="280.0" y="110" font-size="46" text-anchor="middle">⚡</text>
+  <text x="280.0" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#E8FBFF" text-anchor="middle" filter="url(#softglow)">Renewable Energy Kit</text>
+  <text x="280.0" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#7CFFB2" fill-opacity="0.9" text-anchor="middle" letter-spacing="0.5">IoT   •   Arduino   •   Sensors</text>
+  <rect x="220.0" y="240" width="120" height="3" rx="1.5" fill="#7CFFB2" fill-opacity="0.6"/>
+</svg>

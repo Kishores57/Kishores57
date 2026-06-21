@@ -1,0 +1,31 @@
+<svg width="900" height="110" viewBox="0 0 900 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="110" rx="28" fill="url(#bg)"/>
+  <rect x="2" y="2" width="896" height="106" rx="26" fill="url(#glass)" stroke="#00F0FF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="14" y="14" width="872" height="82" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+  <rect x="40" y="100" width="820" height="3" rx="1.5" fill="url(#glow)"/>
+  <text x="450.0" y="67.0" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#E8FBFF" text-anchor="middle" filter="url(#softglow)">🧬  About Me</text>
+</svg>
