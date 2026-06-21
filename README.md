@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/download(1).png" width="100%"/>
+
 <br/>
 
 <a href="https://git.io/typing-svg">
