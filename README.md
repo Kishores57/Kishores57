@@ -2,8 +2,6 @@
 
 <br/>
 
-<img src="assets/glow_ring.svg" width="320"/>
-
 <img src="assets/download (1).jpg" width="30%"/>
 
 <br/><br/>
